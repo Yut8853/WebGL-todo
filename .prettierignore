@@ -1,0 +1,10 @@
+node_modules
+dist
+build
+.next
+coverage
+public
+.env
+package-lock.json
+*.snap
+*.lock

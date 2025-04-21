@@ -1,2 +1,22 @@
-
+# Node
 node_modules
+dist
+build
+.next
+
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# ロックファイル（どちらかだけ使うなら片方だけ無視）
+package-lock.json
+# yarn.lock ← yarnを使ってるならこれは残す！
+
+# 出力ディレクトリ
+coverage
+.vscode
+.DS_Store
+
+# Husky & Git
+.husky/_/
